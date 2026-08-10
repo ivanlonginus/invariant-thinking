@@ -1,5 +1,7 @@
 # Invariant Thinking
 
+<p align="right"><strong>English</strong> · <a href="./README.es.md">Español</a></p>
+
 **A framework for learning and reasoning under accelerated technological change.**
 
 Invariant Thinking is an open conceptual framework for separating **transferable structure** from **implementation-specific novelty**. Its purpose is practical: when a new technology appears, do not relearn the entire surface. Identify what remains structurally true, test the limits of that mapping, and invest deep learning effort in the **actual delta**.
@@ -11,6 +13,8 @@ Invariant Thinking is an open conceptual framework for separating **transferable
 **Draft 0.1 — open proposal.**
 
 Invariant Thinking is not presented as a scientifically validated theory of cognition. It is a structured framework, vocabulary, and repeatable method intended for use, criticism, case studies, and future empirical evaluation.
+
+English is the canonical language of the framework. The Spanish translation is available in [`README.es.md`](README.es.md), with translated core documents under [`docs/es/`](docs/es/). Translations improve accessibility but do not replace the canonical English specification.
 
 ## The problem
 
@@ -87,6 +91,7 @@ If the fourth question is missing, the analysis is incomplete.
 - [`examples/`](examples/) — worked analyses.
 - [`maps/template.yaml`](maps/template.yaml) — reusable Invariant Map format.
 - [`rfcs/`](rfcs/) — proposed changes to the framework.
+- [`README.es.md`](README.es.md) and [`docs/es/`](docs/es/) — Spanish translation.
 
 ## Quick example
 
