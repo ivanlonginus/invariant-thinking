@@ -1,5 +1,7 @@
 # Invariant Thinking
 
+<p align="right"><a href="./README.md">English</a> · <strong>Español</strong></p>
+
 **Un framework para aprender y razonar bajo cambio tecnológico acelerado.**
 
 Invariant Thinking es un framework conceptual abierto para separar **estructura transferible** de **novedad específica de implementación**. Su objetivo es práctico: cuando aparece una tecnología nueva, no reaprender toda la superficie; identificar qué permanece estructuralmente verdadero, comprobar dónde deja de ser válido el paralelismo y concentrar el aprendizaje profundo en el **delta real**.
@@ -11,6 +13,8 @@ Invariant Thinking es un framework conceptual abierto para separar **estructura 
 **Draft 0.1 — propuesta abierta.**
 
 Invariant Thinking no se presenta como una teoría científica validada de la cognición. Se presenta como un framework estructurado, un vocabulario y un método repetible que pueden usarse, criticarse, extenderse y eventualmente evaluarse de forma empírica.
+
+El inglés es el idioma canónico del framework. Esta traducción existe para facilitar el acceso. En caso de una diferencia semántica, prevalece la especificación canónica en inglés.
 
 ## Problema
 
@@ -45,11 +49,11 @@ Un invariante válido debe declarar siempre:
 
 ## Protocolo DELTA
 
-1. **Decompose** — descomponer actores, estado, entradas, salidas, límites, recursos, transformaciones y dependencias.
-2. **Extract** — extraer restricciones e invariantes candidatos.
-3. **Link** — enlazarlos con conocimiento y patrones previos.
-4. **Test** — intentar romper activamente la analogía o el supuesto invariante.
-5. **Acquire** — aprender el delta irreducible restante.
+1. **Decompose / Descomponer** — descomponer actores, estado, entradas, salidas, límites, recursos, transformaciones y dependencias.
+2. **Extract / Extraer** — extraer restricciones e invariantes candidatos.
+3. **Link / Vincular** — enlazarlos con conocimiento y patrones previos.
+4. **Test / Probar** — intentar romper activamente la analogía o el supuesto invariante.
+5. **Acquire / Adquirir** — aprender el delta irreducible restante.
 
 Relación conceptual:
 
@@ -70,6 +74,18 @@ No es una ecuación cuantitativa.
 
 Si la cuarta pregunta no tiene respuesta, el análisis está incompleto.
 
+## Documentación en español
+
+- [`docs/es/SPEC.md`](docs/es/SPEC.md) — traducción de la especificación del framework.
+- [`docs/es/DELTA-PROTOCOL.md`](docs/es/DELTA-PROTOCOL.md) — traducción del método operativo DELTA.
+- [`docs/es/GLOSSARY.md`](docs/es/GLOSSARY.md) — glosario bilingüe de términos controlados.
+
+La documentación normativa canónica permanece en:
+
+- [`SPEC.md`](SPEC.md)
+- [`DELTA-PROTOCOL.md`](DELTA-PROTOCOL.md)
+- [`GLOSSARY.md`](GLOSSARY.md)
+
 ## Contribución propuesta
 
 El proyecto no reclama haber inventado la invariancia, la abstracción o la transferencia de conocimiento. Su propuesta específica es combinar:
@@ -81,4 +97,16 @@ El proyecto no reclama haber inventado la invariancia, la abstracción o la tran
 - **Invariant Maps** como artefacto reutilizable; y
 - prueba explícita de **analogy breaks** para evitar reduccionismo.
 
-La versión canónica de la especificación está en inglés en [`SPEC.md`](SPEC.md).
+## Contribuciones
+
+Las traducciones no pueden introducir nuevos requisitos normativos ni modificar el significado del framework. Si una traducción revela una ambigüedad, la corrección debe hacerse primero en la fuente canónica en inglés.
+
+Consulta [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Citación
+
+Para citar el framework, consulta [`CITATION.cff`](CITATION.cff).
+
+## Licencia
+
+El material conceptual y escrito de este repositorio se distribuye bajo **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Consulta [`LICENSE.md`](LICENSE.md).
