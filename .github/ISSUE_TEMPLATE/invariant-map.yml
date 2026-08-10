@@ -1,0 +1,38 @@
+name: Invariant Map proposal
+description: Propose a worked analysis of a technology, system, or domain.
+title: "map: "
+labels: ["invariant-map"]
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      description: What system or transformation are you analyzing?
+    validations:
+      required: true
+  - type: textarea
+    id: transformation
+    attributes:
+      label: Transformation and boundary
+      description: What changes, and within what context should the comparison hold?
+    validations:
+      required: true
+  - type: textarea
+    id: invariants
+    attributes:
+      label: Candidate invariants
+    validations:
+      required: true
+  - type: textarea
+    id: breaks
+    attributes:
+      label: Analogy breaks
+      description: Where does the proposed mapping fail or become unsafe?
+    validations:
+      required: true
+  - type: textarea
+    id: delta
+    attributes:
+      label: Learning Delta
+    validations:
+      required: true

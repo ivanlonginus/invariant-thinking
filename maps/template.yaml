@@ -1,0 +1,59 @@
+version: "0.1"
+kind: invariant-map
+
+subject: ""
+purpose: ""
+
+contexts:
+  source: ""
+  target: ""
+
+transformation:
+  description: ""
+  changes:
+    - ""
+
+boundary:
+  domain: ""
+  assumptions:
+    - ""
+  exclusions:
+    - ""
+
+decomposition:
+  actors: []
+  inputs: []
+  outputs: []
+  state: []
+  resources: []
+  dependencies: []
+  trust_boundaries: []
+  failure_modes: []
+
+candidate_invariants:
+  - property: ""
+    reasoning: ""
+    break_condition: ""
+    confidence: "low|medium|high"
+
+prior_model_links:
+  - model: ""
+    preserved_relations: []
+    differences: []
+
+analogy_breaks:
+  - ""
+
+learning_delta:
+  - ""
+
+unknowns:
+  - ""
+
+evidence:
+  - claim: ""
+    source: ""
+
+review:
+  strongest_counterexample: ""
+  unresolved_questions: []

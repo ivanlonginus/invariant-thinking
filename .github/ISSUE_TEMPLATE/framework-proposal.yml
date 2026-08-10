@@ -1,0 +1,28 @@
+name: Framework change / RFC candidate
+description: Propose a change to terminology, specification, or method.
+title: "proposal: "
+labels: ["framework"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What ambiguity, failure mode, or counterexample needs to be addressed?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: counterexample
+    attributes:
+      label: Strongest counterargument
+    validations:
+      required: true
+  - type: textarea
+    id: priorart
+    attributes:
+      label: Related work / prior art

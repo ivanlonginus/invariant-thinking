@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or discuss the Invariant Thinking Framework, please cite it as below."
+title: "Invariant Thinking Framework"
+type: software
+authors:
+  - family-names: "Longinus"
+    given-names: "Ivan"
+    alias: "ivanlonginus"
+version: "0.1.0-draft"
+date-released: "2026-08-09"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/ivanlonginus/invariant-thinking"
+url: "https://github.com/ivanlonginus/invariant-thinking"
+abstract: >-
+  An open conceptual framework for separating transferable structure from
+  implementation-specific novelty and focusing learning effort on the
+  irreducible delta under accelerated technological change.
+keywords:
+  - invariants
+  - learning
+  - abstraction
+  - structural reasoning
+  - knowledge transfer
+  - technology
